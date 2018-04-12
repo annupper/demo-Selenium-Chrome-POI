@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testNgData.LoginTestTest" duration-ms="22966" started-at="2018-04-11T08:07:34Z" finished-at="2018-04-11T08:07:57Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="22966" started-at="2018-04-11T08:07:34Z" finished-at="2018-04-11T08:07:57Z">
+      <class name="testNgData.LoginTestTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNgData.LoginTestTest@2d554825]" name="setUp" is-config="true" duration-ms="7821" started-at="2018-04-11T10:07:35Z" finished-at="2018-04-11T10:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testNgData.LoginTestTest@2d554825]" name="loginTest" duration-ms="3529" started-at="2018-04-11T10:07:42Z" data-provider="getDataFromExcel" finished-at="2018-04-11T10:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNgData.LoginTestTest@2d554825]" name="tearDown" is-config="true" duration-ms="1248" started-at="2018-04-11T10:07:46Z" finished-at="2018-04-11T10:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNgData.LoginTestTest@2d554825]" name="setUp" is-config="true" duration-ms="6670" started-at="2018-04-11T10:07:47Z" finished-at="2018-04-11T10:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testNgData.LoginTestTest@2d554825]" name="loginTest" duration-ms="1516" started-at="2018-04-11T10:07:54Z" data-provider="getDataFromExcel" finished-at="2018-04-11T10:07:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNgData.LoginTestTest@2d554825]" name="tearDown" is-config="true" duration-ms="1229" started-at="2018-04-11T10:07:55Z" finished-at="2018-04-11T10:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNgData.LoginTestTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testNgData.LoginTestTest -->
+</testng-results>
